@@ -16,6 +16,7 @@
 
  #d3{
     background-color: lightgreen;
+    
    height: 200px;
    padding-left: 30%;
    padding-top: 15px;
@@ -24,7 +25,7 @@
  #d31{
     display: inline-block;
     text-align: center;
-    
+    border: 5px solid red;
     height: 160px;
     width: 20%;
     background-color: purple;
@@ -36,13 +37,14 @@
     border: 5px solid green;
    
     display: inline-block;
-    height: 150px;
+    height: 160px;
     width: 20%;
     background-color: white;
  }
  #d33{
     display: inline-block;
     height: 160px;
+    border: 5px solid red;
     width: 20%;
     background-color: grey;
  }
@@ -51,24 +53,14 @@
     height: 50px;
     padding-top: 10px;
     background-color: gray;
-    border: 10px solid blue  ;
-    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
  }
-
  #d5{
-    size: 100px;
-    height: 50px;
-    padding-top: 10px;
-    background-color: gray;
-    border: 10px solid blue  ;
-    text-align: center;
- }
-
- #d6{
-    size: 100px;
-    height: 50px;
-    padding-top: 10px;
-    background-color: gray;
-    border: 10px solid blue  ;
-    text-align: center;
+   background-color: blue;
+   padding: 5px 5px;
+   width: 100%;
  }
