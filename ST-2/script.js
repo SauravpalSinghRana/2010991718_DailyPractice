@@ -7,7 +7,7 @@ function myFunction() {
   if (aCount== 5) {
     while (a) {
       x = a % 10;
-      sum += x*5;
+      sum += x;
       a = Math.floor(a / 10);
     }
     borderRadius = Math.floor(sum / 5);
