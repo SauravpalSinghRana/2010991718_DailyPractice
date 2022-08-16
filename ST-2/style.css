@@ -47,7 +47,7 @@ button:hover {
   scale: 1.2;
 }
 #b1 {
-  background-color: rgba(0, 255, 255, 0.588);
+  background-color: red;
   width: 175px;
   font-size: 25px;
   border: none;
